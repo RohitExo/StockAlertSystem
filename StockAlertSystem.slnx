@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/SolutionItems/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="StockAlert.API/StockAlert.API.csproj" />
+  <Project Path="StockAlert.Notifications/StockAlert.Notifications.csproj" />
+</Solution>

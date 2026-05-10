@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7069CB7-34FF-404F-AC86-825F9FC77A45}|StockAlert.Notifications\\StockAlert.Notifications.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.notifications\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7069CB7-34FF-404F-AC86-825F9FC77A45}|StockAlert.Notifications\\StockAlert.Notifications.csproj|solutionrelative:stockalert.notifications\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7069CB7-34FF-404F-AC86-825F9FC77A45}|StockAlert.Notifications\\StockAlert.Notifications.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.notifications\\stockalert.notifications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B7069CB7-34FF-404F-AC86-825F9FC77A45}|StockAlert.Notifications\\StockAlert.Notifications.csproj|solutionrelative:stockalert.notifications\\stockalert.notifications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\services\\messageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\services\\messageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\services\\imessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\services\\imessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|c:\\users\\r.budhe\\downloads\\dotnet personel wf\\projects\\stockalertsystem\\stockalertsystem\\stockalert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B266FDD-9F36-4263-891C-232CC8EAF33F}|StockAlert.API\\StockAlert.API.csproj|solutionrelative:stockalert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B33754-6642-4E69-A145-C6F1B4F5630C}|NewFolder1{41B33754-6642-4E69-A145-C6F1B4F5630C}|C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{41B33754-6642-4E69-A145-C6F1B4F5630C}|NewFolder1{41B33754-6642-4E69-A145-C6F1B4F5630C}|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockAlert.Notifications",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.Notifications\\StockAlert.Notifications.csproj",
+              "RelativeDocumentMoniker": "StockAlert.Notifications\\StockAlert.Notifications.csproj",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.Notifications\\StockAlert.Notifications.csproj",
+              "RelativeToolTip": "StockAlert.Notifications\\StockAlert.Notifications.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-10T14:25:49.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StockAlert.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StockAlert.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-10T13:21:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-10T12:45:13.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.Notifications\\Program.cs",
+              "RelativeDocumentMoniker": "StockAlert.Notifications\\Program.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.Notifications\\Program.cs",
+              "RelativeToolTip": "StockAlert.Notifications\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:29:59.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Services\\MessageProducer.cs",
+              "RelativeDocumentMoniker": "StockAlert.API\\Services\\MessageProducer.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Services\\MessageProducer.cs",
+              "RelativeToolTip": "StockAlert.API\\Services\\MessageProducer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T09:16:18.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Services\\IMessageProducer.cs",
+              "RelativeDocumentMoniker": "StockAlert.API\\Services\\IMessageProducer.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Services\\IMessageProducer.cs",
+              "RelativeToolTip": "StockAlert.API\\Services\\IMessageProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T09:14:53.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlertController.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Controllers\\AlertController.cs",
+              "RelativeDocumentMoniker": "StockAlert.API\\Controllers\\AlertController.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Controllers\\AlertController.cs",
+              "RelativeToolTip": "StockAlert.API\\Controllers\\AlertController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:32:56.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Program.cs",
+              "RelativeDocumentMoniker": "StockAlert.API\\Program.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Program.cs",
+              "RelativeToolTip": "StockAlert.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:22:05.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MockData.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Data\\MockData.cs",
+              "RelativeDocumentMoniker": "StockAlert.API\\Data\\MockData.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Data\\MockData.cs",
+              "RelativeToolTip": "StockAlert.API\\Data\\MockData.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:17:54.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "StockAlert.API\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\R.Budhe\\Downloads\\DOTNET Personel WF\\Projects\\StockAlertSystem\\StockAlertSystem\\StockAlert.API\\Models\\Ticket.cs",
+              "RelativeToolTip": "StockAlert.API\\Models\\Ticket.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:02:56.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
