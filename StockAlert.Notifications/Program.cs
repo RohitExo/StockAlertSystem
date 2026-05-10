@@ -39,12 +39,37 @@ consumer.ReceivedAsync += async (model, ea) =>
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"[DLQ Trigger] Failing message: {ex.Message}");
-        // Move to Dead letter queue if failed
-        await _channel.BasicNackAsync(ea.DeliveryTag, multiple: false, requeue: false);
+        long retryCount = GetRetryCount(ea.BasicProperties.Headers);
+        if (retryCount < 3)
+        {
+            Console.WriteLine($"[Retry {retryCount + 1}/3] Delaying 5s: {ex.Message}");
+            // Nack with requeue: false triggers the Dead Letter Exchange (pointing to Retry Queue)
+            await _channel.BasicNackAsync(ea.DeliveryTag, multiple: false, requeue: false);
+        }
+        else
+        {
+            Console.WriteLine($"[FATAL] Max retries reached. Routing to Permanent DLQ.");
+            // Manually move to final DLQ so it doesn't loop forever
+            await _channel.BasicPublishAsync(exchange: "stock-alert-dlx", routingKey: "permanent-dead", body: body);
+            await _channel.BasicAckAsync(ea.DeliveryTag, multiple: false);
+        }
     }
 };
 
 await _channel.BasicConsumeAsync(queue: "stock-alert", autoAck: false, consumer: consumer);
 Console.WriteLine("Consuming Stock Alerts... Press enter to exit.");
 await Task.Delay(-1);
+
+static long GetRetryCount(IDictionary<string, object?>? headers)
+{
+    if (headers != null && headers.ContainsKey("x-death"))
+    {
+        var deathList = headers["x-death"] as List<object>;
+        if (deathList?.Count > 0)
+        {
+            var lastDeath = deathList[0] as IDictionary<string, object>;
+            return (long)(lastDeath?["count"] ?? 0);
+        }
+    }
+    return 0;
+}

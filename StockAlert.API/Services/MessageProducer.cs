@@ -9,7 +9,7 @@ namespace StockAlert.API.Services
 {
     public class MessageProducer:IMessageProducer
     {
-        public async void SendingMessage<T>(T message)
+        public async Task SendingMessage<T>(T message)
         {
             var factory = new ConnectionFactory()
             {
@@ -29,6 +29,14 @@ namespace StockAlert.API.Services
 
             await _channel.QueueDeclareAsync(queue: dlqName, durable: true, exclusive: false, autoDelete: false);
             await _channel.QueueBindAsync(queue: dlqName, exchange: dlxName, routingKey: "dead-letter");
+
+            var retryArgs = new Dictionary<string, object?> {
+                { "x-message-ttl", 5000 },
+                { "x-dead-letter-exchange", "" },
+                { "x-dead-letter-routing-key", "stock-alert" }
+            };
+            await _channel.QueueDeclareAsync("stock-alert-retry", true, false, false, retryArgs);
+
 
             var mainArgs = new Dictionary<string, object?>
             {

@@ -255,3 +255,6 @@ curl -X POST http://localhost:5000/api/alert \
 ```
 * **Broker Handling Matrix:** The application issues a negative acknowledgment (`BasicNackAsync` with `requeue: false`). The message is immediately offloaded from the premium `stock-alert` quorum queue and transferred into the `stock-alert-dead-letter` collection for secondary isolation and triage.
 </details>
+
+###🛠️ Advanced Reliability
+ Exponential Backoff & RetryUnlike basic systems that dump failed messages immediately into a DLQ, StockAlert implements a Wait-and-Retry pattern:Transient Failure: If a processing error occurs, the message is routed to a stock-alert-retry queue.TTL (Time-To-Live): The message sits for 5,000ms, creating a non-blocking delay.Automatic Re-queue: Once the TTL expires, RabbitMQ automatically re-injects the message into the stock-alert queue for another attempt.Max Retries: After 3 failed attempts (tracked via x-death headers), the message is escalated to the Permanent DLQ for engineer review.
